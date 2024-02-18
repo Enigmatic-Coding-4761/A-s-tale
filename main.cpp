@@ -1,13 +1,13 @@
 #include <iostream>
 #include "choices.h"
 #include "classes.h"
+#include "functions.h"
 
 using namespace std;
 
 int main()
 {
-    player alex;
-    alex.inventory_add("bow");
-    alex.inventory_add_key("key");
-    alex.inventory_list();
+    std::cout << "you wake up in a forrest";
+    press_to_continue();
+    std::cout << "you continued";
 }
