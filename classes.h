@@ -5,6 +5,7 @@
 
 class player
 {
+    public:
     int health;
     std::array<std::string,5> inventory; 
     int arrows;
@@ -12,13 +13,13 @@ class player
 
     void inventory_list()
     {
-        std::cout << "backpack:";
+        std::cout << "backpack:" << std::endl;
         for (int i = 0; i < 5; i++){
-            std::cout <<    i + 1 << inventory[i] << std::endl;
+            std::cout <<    i + 1 << ":" << inventory[i] << std::endl;
         }
-        std::cout << "key items:";
+        std::cout << "key items:" << std::endl;
         for (int i = 0; i < 10; i++){
-            std::cout <<    i + 1 << key_items[i] << std::endl;
+            std::cout <<    i + 1 << ":" << key_items[i] << std::endl;
         }
     }
 
@@ -28,6 +29,7 @@ class player
         {
             if (inventory[i] == ""){
                 inventory[i] = item;
+                break;
             }
         }
     }
@@ -37,6 +39,7 @@ class player
         {
             if (key_items[i] == ""){
                 key_items[i] = item;
+                break;
             }
         }
     }
