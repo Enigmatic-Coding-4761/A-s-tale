@@ -5,9 +5,10 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char* argv[])
 {
-    std::cout << "you wake up in a forrest";
-    press_to_continue();
-    std::cout << "you continued";
+    cout << argv[1];
+    string name = argv[1];
+    player name;
+    cout << "you wake up in a forrest" << endl <<  "(hint type 'inv' to view your inventory )";
 }
