@@ -5,4 +5,6 @@ Contributers:
 <br>
   -> Enigmatic-coding-4761(creator)
 <br>
-  -> Just-Artur
+  -> Just-Artur(contributer)
+<br>
+ ->FateMistary(Profetional Idiot)
